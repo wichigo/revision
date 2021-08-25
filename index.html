@@ -9,13 +9,18 @@
 </head>
 <body>
     <p id="filmSpoil"></p>
+    <div id="buttons">
+        <div>
+            <button onclick="random(films, spoilsFilms)" class="buttonRandom">Divulguache un Film</button>
+            <button onclick="random(series, spoilsSeries)" class="buttonRandom">Divulguache une Série</button>
+            <button onclick="random(livres, spoilsLivres)" class="buttonRandom">Divulguache un Livre</button>
+        </div>
+        <button onclick="divulguacheRandom(pick, spoil, randomNum)" id="buttonFilm">Divulguache !</button>
+    </div>
     <center>
         <section id='film'></section>
-        <h1>Divulguache un film !</h1>
-        <div id="buttons">
-            <button onclick="random(films)" id="buttonRandom">Random Film</button>
-            <button onclick="divulguacheRandom(film, spoils, randomNum)" id="buttonFilm">Divulguache le Film</button>
-        </div>
+        <h1>Divulguache !</h1>
+        
         <h2 id="filmTitre"></h2>
         </section>
         

@@ -14,19 +14,25 @@ h1{
     margin-top: 0;
     padding: 10vh;
 }
-#buttonRandom{
+#buttons{
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 50vh;
+}
+.buttonRandom{
     font-family:'Roboto', 'Montserrat', 'bebas Neue' ;
     padding: 3vh;
-    position: absolute;
-    left: 30%;
     font-size: 2vw;
 }
 #buttonFilm{
     font-family:'Roboto', 'Montserrat', 'bebas Neue' ;
     padding: 3vh;
-    right: 30%;
-    position: absolute;
     font-size: 2vw;
+    margin-top: 1vh;
+    width: 51.5%;
 }
 h2{
     font-family:'bebas Neue', 'Roboto', 'Montserrat';
@@ -47,8 +53,7 @@ p{
     flex: 1;
     position: absolute;
     font-size: 20vw;
-    padding : 10px;
-    margin : 10px;
+    margin-top : -150px;
     height: 100vh;
     color: deeppink;
     padding-top: 0;
