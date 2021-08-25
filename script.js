@@ -6,6 +6,8 @@ function random(films){
     let random = Math.floor(Math.random() * films.length);
     let randomFilm = films[random];
     let filmTitre = document.getElementById('filmTitre');
+    let filmSpoil = document.getElementById('filmSpoil');
+    filmSpoil.innerHTML='';
     filmTitre.innerHTML=randomFilm;
     film=randomFilm;
     randomNum = random;
