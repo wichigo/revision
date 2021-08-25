@@ -1,3 +1,9 @@
+*{
+    @font-face {
+        font-family: "bebas Neue";
+        src: url("/fonts/BebasNeue-Regular.ttf") format("ttf"),
+       }
+}
 body{
     position: relative;
     top: 0;
